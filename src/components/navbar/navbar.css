@@ -1,0 +1,35 @@
+.menu ul li {
+  padding: 0px 10px;
+}
+.menu ul li:last-child {
+  padding-right: 0px;
+}
+
+.menu ul li a {
+  color: rgb(32, 32, 32);
+  transition: 0.5s;
+  color: white;
+}
+
+.showNavBar {
+  background-color: #7c3aed;
+  z-index: 1;
+}
+
+.logo {
+  font-family: "Open Sans", sans-serif;
+  transition: 0.5s;
+}
+
+.nav .logo {
+  color: white;
+}
+
+.nav {
+  transition-timing-function: ease-in;
+  transition: 0.3s;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
