@@ -1,4 +1,5 @@
 import React from "react";
+import imag from "../image/avatar.jpg";
 
 const About = () => {
   return (
@@ -8,7 +9,7 @@ const About = () => {
         <span className="seperator mb-12"></span>
         <div id="about__wrap" className="flex justify-between w-4/5 mx-auto">
           <div data-aos="fade-right" className="avatar___image">
-            <img className="rounded-full" src="/images/avatar.jpg" alt="" />
+            <img className="rounded-full" src={imag} alt="" />
           </div>
           <div data-aos="fade-left" className="own__info abdescription w-8/12">
             <h1 className="font-medium text-2xl mb-2">I'm Md Sagor.</h1>
