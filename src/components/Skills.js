@@ -15,7 +15,7 @@ const Skills = () => {
             {skill.map((single, index) => {
               return (
                 <div
-                  data-aos="fade-down"
+                  data-aos="zoom-in"
                   className="progress__bar mb-4 font-medium"
                   key={index}
                 >

@@ -1,5 +1,5 @@
 import React from "react";
-import imag from "../image/avatar.jpg";
+import imag from "../image/avatar2.jpg";
 
 const About = () => {
   return (
@@ -8,7 +8,7 @@ const About = () => {
         <h1 className="mb-2 text-3xl text-center font-medium">About</h1>
         <span className="seperator mb-12"></span>
         <div id="about__wrap" className="flex justify-between w-4/5 mx-auto">
-          <div data-aos="fade-right" className="avatar___image">
+          <div data-aos="zoom-in-down" className="avatar___image">
             <img className="rounded-full" src={imag} alt="" />
           </div>
           <div data-aos="fade-left" className="own__info abdescription w-8/12">

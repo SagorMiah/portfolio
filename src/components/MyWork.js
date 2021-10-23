@@ -12,7 +12,7 @@ const MyWork = () => {
           {works.map((work) => {
             return (
               <a
-                data-aos="fade-up"
+                data-aos="flip-left"
                 href={work.link}
                 target="_blank"
                 className="work cursor-pointer mb-8 relative transition duration-500"
