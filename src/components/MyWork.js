@@ -15,10 +15,10 @@ const MyWork = () => {
                 data-aos="fade-up"
                 href={work.link}
                 target="_blank"
-                className="work cursor-pointer mb-16 relative transition duration-500"
+                className="work cursor-pointer mb-8 relative transition duration-500"
               >
-                <div key={work.id}>
-                  <img className="rounded" src={work.img} alt="" />
+                <div id="image__wrap" key={work.id}>
+                  <img src={work.img} alt="" />
                   <h3 className="absolute top-2 left-2 opacity-0 transition duration-500 text-white">
                     {work.title}
                   </h3>

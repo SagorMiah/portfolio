@@ -21,6 +21,15 @@ const About = () => {
               I am working on the Fiverr as a Web designer. I have already done
               many projects. you can see my some projects on the below.
             </p>
+            <div className="mt-12">
+              <a
+                className="bg-pink-500 px-6 py-4 text-white rounded-full font-bold text-sm transition duration-300 hover:bg-white hover:text-pink-500 border hover:border-pink-500"
+                target="_blank"
+                href="https://drive.google.com/file/d/1D5rUe933z1xisXj7HCAb7EZlW_o8aDYM/view?usp=sharing"
+              >
+                Download Resume
+              </a>
+            </div>
           </div>
         </div>
       </div>

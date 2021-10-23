@@ -8,6 +8,7 @@ import Contact from "./components/Contact";
 import Skills from "./components/Skills";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import Quote from "./components/Quote";
 
 const App = () => {
   useEffect(() => {
@@ -19,6 +20,7 @@ const App = () => {
       <About />
       <Skills />
       <MyWork />
+      <Quote />
       <Contact />
       <Footer />
     </>
