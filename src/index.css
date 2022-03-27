@@ -142,7 +142,7 @@ ul.menu li {
 /* skill section start */
 
 #skills {
-  background-color: white;
+  background-color: #000000eb;
 }
 
 #title {
@@ -229,13 +229,14 @@ h4 {
 }
 
 .progress {
-  width: 200px;
+  width: 180px;
   border: 10px solid #bfbfbf;
-  height: 200px;
+  height: 180px;
   position: relative;
   border-radius: 100%;
   margin-left: auto;
   margin-right: auto;
+  box-shadow: 0px 0px 9px -2px white;
 }
 
 .progress__bar {
@@ -247,22 +248,21 @@ h4 {
   font-weight: 600;
 }
 
-.prgress__done {
-  /* background: linear-gradient(27deg, #ff7f41, #ff00f7); */
-  border: 10px solid #3a53d5;
-  position: absolute;
-  top: -10px;
-  left: -8px;
-  width: 200px !important;
-  height: 200px;
+/* .prgress__done {
+  width: 180px;
+  height: 180px;
+  position: relative;
   border-radius: 100%;
-}
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0px 0px 9px -2px white;
+} */
 
 span#middlewidth {
   position: absolute;
   top: 50%;
   left: 50%;
-  color: black;
+  color: white;
   font-size: 28px;
   transform: translate(-50%, -50%);
   font-weight: 600;
@@ -437,6 +437,9 @@ label {
   .submitform {
     width: 100%;
   }
+  .progress__bar {
+    width: 50%;
+  }
 }
 
 @media screen and (max-width: 460px) {
@@ -446,5 +449,12 @@ label {
   }
   #contact .namenumber {
     width: 100%;
+  }
+  .progress__bar {
+    width: 100%;
+  }
+  .progress {
+    width: 150px;
+    height: 150px;
   }
 }

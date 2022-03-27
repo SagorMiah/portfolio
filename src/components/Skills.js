@@ -5,7 +5,9 @@ const Skills = () => {
   return (
     <div className="py-16" id="skills">
       <div className="row">
-        <h1 className="mb-2 text-3xl text-center font-medium">Skills</h1>
+        <h1 className="mb-2 text-3xl text-center text-white font-medium">
+          Skills
+        </h1>
         <span className="seperator mb-12"></span>
         <div className="flex justify-between items-center flex-wrap">
           <div
@@ -16,7 +18,7 @@ const Skills = () => {
               return (
                 <div
                   data-aos="zoom-in"
-                  className="progress__bar mb-4 font-medium"
+                  className="progress__bar mb-8 font-medium text-white"
                   key={index}
                 >
                   <h3 className="progress__name mb-1 text-center mb-4">

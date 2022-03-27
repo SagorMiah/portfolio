@@ -8,7 +8,7 @@ const MyWork = () => {
         <h1 className="mb-16 text-3xl text-center font-medium">
           CHECK OUT SOME OF MY WORKS
         </h1>
-        <div className="flex justify-between flex-wrap">
+        <div className="flex justify-evenly flex-wrap">
           {works.map((work) => {
             return (
               <a
